@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+
+body {
+  margin: 0;
+  font-family:'Phudu';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+header{
+  padding: 35px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.signin{
+  text-align: right;
+  cursor: pointer;
+}
+.signin:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btn {
+  display: block;
+  width: 75%;
+  background-color: black;
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.btn:active{
+  box-shadow: none;
+  transform: translateY(0)
+}
+.button-div{
+  display: grid;
+  place-items: center;
+  font-family: 'Phudu';
+  margin: 0;
+}
+
+.Random-img{
+  max-width: 100%;
+  max-height: 100%;
+  padding-bottom: 50px;
+}
+.Meme {
+  display: grid;
+  place-items: center;
+  font-family: 'Phudu';
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.d-btn{
+  display: inline-flex;
+  gap: 55px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.btn-3 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  
+  font-family: "Phudu";
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 17px 80px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.btn-3:disabled {
+  pointer-events: none;
+}
+
+.btn-3:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btn-3:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
