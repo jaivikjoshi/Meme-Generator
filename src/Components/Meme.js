@@ -4,7 +4,7 @@ import {exportComponentAsPNG} from 'react-component-export-image'
 const Meme = () => {
     const memeRef = createRef();
     const [meme, setMeme] = useState({
-        randomImage: "images/Empty.png"
+        randomImage: "/images/Empty.png"
     });
     const [allMemes, setAllMemes] = useState([]);
     
